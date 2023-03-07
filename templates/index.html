@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Rating Prediction for Restaurants</title>
+</head>
+<body>
+<h1>Rating Prediction for Restaurants</h1>
+<form action="{{ url_for('predict') }}" method="post">
+    <input type="text" name="url" placeholder="Enter the URL" required="required">
+    <button type="submit">Get Data</button>
+</form>
+<br>
+<b>{{ prediction_text }}</b>
+</body>
+</html>
