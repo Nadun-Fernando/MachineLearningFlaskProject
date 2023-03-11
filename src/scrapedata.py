@@ -120,7 +120,7 @@ class ScrapeData:
         df = pd.DataFrame(
             {'name': self.__names,
              'rating': self.__ratings,
-             'review': self.__reviews,
+             'text': self.__reviews,
              'duration': self.__posted_dates})
 
         # removing empty values from the dataframe
