@@ -1,81 +1,279 @@
-name,rating,review,duration
-Maria L Aben, 5 stars ,"Awesome experience! Food are so good  tasty, well balance. Wine collection great!
-Ambiance is great! Family friendly and class!
-A must place to dine for special or just explore fine dining.
-Server with class, prompt, pampered well and friendly vive.",3 hours ago
-hernotchbrine hernotchbrine, 1 star ,O'tacos is butter,7 hours ago
-Micheal Humphrey, 5 stars ,One of the best restaurants I have visited. From customer service to food everything was excellent.,14 hours ago
-Donna Kim, 2 stars ,"Staff needs training—had a terrible experience with a server. If you are social profiling/stereotyping, be a little more discreet and cut down on your condescending tone please.
+name,rating,text,duration
+Qunisha Roberson, 5 stars ,"I went to Ramsay kitchen in Las Vegas during spring break 2023. As a big fan of chief Ramsey I had to go to one of his many restaurants, Ramsey kitchen is new and available seating.  I had the 3 course meal special and it was delicious and it was a great way to trying Chief Ramsey signature dishes. The Cesar salad was great potion size and the Toffee dessert. The beef wellington was so good I wished I had more. The staff are wonderful and really great with my three boys. Overall a great experience.",7 hours ago
+Ahmad Ahmadian, 2 stars ,"I recently visited this place in Las Vegas that offered Gordon Ramsey's recipes, and unfortunately, my experience fell short of my expectations.
 
-Overall wasn’t thrilled about the food either. Heavy on bechamel sauce and fat, which could serve some old school folks’ palates I suppose.",a day ago
-Alex Graham, 5 stars ,"Had the food and wine pairing. Pretty much every item I had was the best I’ve ever had. Except the wagyu, I’ve had much better wagyu and the lamb here is better than the wagyu. The wines were all amazingly well paired with the food. An unforgettable experience for sure.",4 days ago
-Rob Francis, 2 stars ,"Really nice staff (2 stars), but we left disappointed in the food and overall experience.  I’m not sure how Michelin assigns its stars anymore because this restaurant is a complete miss across the board - not a single memorable dish.  Their “Evolution” menu and a cheap bottle of wine were over $2k for 2 people.  Far better food experiences across NYC; I’d skip Per Se until they make some serious changes.",5 days ago
-Harry Potter, 5 stars ,Absolutely gorgeous view! This was a very enjoyable experience!,a week ago
-Vincent Basquiat, 5 stars ,"Sey hey Willie ,who's that Willie Mays?!",a week ago
-Z, 4 stars ,"Impeccable service, but the food was on the salty side, especially for French cuisine. The complimentary cookies I received before leaving were also too sweet. It's a so-so experience for the price you pay.",a week ago
-allan splaw, 5 stars ,Exelent  food,a week ago
-Michelle Gobea, 5 stars ,Had the most amazing food and experience for our friends birthday. Staff was wonderful and the food was out of this world delicious (I had the vegetable choice).,a week ago
-Haokun Liu, 2 stars ,"We made reservations for the dinner and due to emergent reasons, we asked if we can reschedule or refund, they refused. we then step back and ask we can voluntarily shorten our eating time by postponing the dinner by 1 hour. they refused. We finally asked can we get the food and eat at home so that it would not influence other customers experience , they refused. no matter what we propose, they refused to negotiate. we are customers and should not be treated by this attitude. If every circumstance is not allowed,  they shouldn’t required full amount deposit at the beginning.",3 weeks ago
-Alisto Alio, 5 stars ,"Per Se is my favourite restaurant in the world ex aequo with Carlo Cracco restaurant in Milan. Location is wonderful. Service excellent. Menu outstanding. Someone can think prices are too high for a dinner. This is a mistake. Prices are fair for such a menu of masterworks. At least once in the entire life, everyone should go for dinner at Per Se.",3 weeks ago
-John, 5 stars ,First class experience!!,3 weeks ago
-TMANI, 5 stars ,"Amazing, the food was fantastic, the staff were friendly and attentive and the experience was incredible!",3 weeks ago
-Adam Shepherd, 5 stars ,Best I'll ever have,a month ago
-Marina Pruni, 1 star ,"So bloated and little flexibility
-2 tasting menus but one excludes the other, so, as in my case, if I don't like most of one, you can't mix
-So given the prices (whoever invited us spent 3000 dollars for 4 people) I found this intransigence excessive and rude
-It was also cold and windy",a month ago
-Nicole Garcia, 5 stars ,Just amazing.,a month ago
-Jerry Baca, 5 stars ,"Visit Santa Rosa Plaza and experience using a coin operated laundry,  this unique market, securing services and multiple eateries.",a month ago
-Anthony R, 5 stars ,"Per Se is one of the finest dining experiences that you can have in NYC. I've eaten here four or five times over the years, the tasting menu is expensive but the experience is two plus hours long which is perfect for a special occasion. The food presentation is unique & outstanding. On a side note, I really miss his other NYC restaurant, the TAK room, which was located down in Hudson Yards. Unfortunately, covid put it out of business, but I really hope Mr. Keller brings the TAK room back one day. It was my favorite restaurant in NYC.",a month ago
-Dave Wisdom, 5 stars ,"Truly one of the best dinner experiences of my life, the food was matched by the service and ambience, and it was a truly magnificent night. Wonderful wine pairings, as well.",a month ago
-R K, 5 stars ,Very attentive staff,a month ago
-Hina Cao, 5 stars ,Amazing tasting menu and service. My favorite dishes are the caviar and steak and soup,a month ago
-Justine Mogren, 5 stars ,"Exquisite dishes!  Food was presented and plated beautifully! The ambiance was cozy but it could be better! The service was good but it can also be better! Been to one Michelin and two Michelin restaurants and the service is so much more welcoming and attentive! The wine and champagne selections are good depending too. We love every single dish they’ve served! Oysters and Pearls, Fillet Atlantic Bass, Avian Poulard and Calotte de Boeuf and if you have a sweet tooth you won’t be disappointed! Over all it’s a wonderful experience!",a month ago
-Priya Patel, 1 star ,"Review is not about food but service. We had a dinner reservation and day before my husband tested positive for covid. I called the restaurant to see if they would let us transfer our reservation or cancel it but was refused. I even offered to share a doctors note and they did not care.
-For such a upscale restaurant to not have any covid policy especially when calling more than 24 hours in advance is just wrong considering the world we live in. I was not even trying to get my deposit back, only asking if they would let us come at a later date. Basically the lady I spoke to said nothing she could do as outside of 72 hours. I told her don’t they care about their guest safety as she was implying he can still come to dinner with covid if didn’t want to lose the $400 deposit and all she said was, “sorry, I cannot advise you on that but we have a strict 72 hour cancellation policy”.",a month ago
-Yunus Emre Tortamis, 5 stars ,"There are many good reasons these places get 3 michelin stars, and I experienced all of them in my visit.
+I started with the onion soup, which was disappointing due to the uncured meat taste. It had an odd flavor that detracted from the dish. Moreover, I was taken aback to find meat in the soup, which was unexpected and not something I had encountered in onion soup before.
 
-From the service to the meal, everything  was par excellence. I have a very picky taste, especially in desserts, which I usually do not eat after the main course. Yet I enjoyed every bit of it without slightest disturbance. I left the place full but not overwhelmed, with a lot of photos and kind reception.",a month ago
-Estelle Meyer, 5 stars ,"We were for the 60 birthday of my father we where around 10 people we had a great table and a very nice and gentle experience , the service was great the food was pretty classic but extremely good and tasty , it was a great dinner and will be a great memory .",2 months ago
-Giuseppe Paglia, 5 stars ,"Final with a bang!
+For my main course, I ordered the chicken breasts, which were unfortunately undercooked and lacking in flavor. They were bland and lacking in seasoning, and the undercooked chicken was a major letdown. The flatbreads pork belly was an additional extra, and it was decent but not extraordinary.
 
-The last leg of our magnificent stay in New York.
-Magnificent place with a view of the Columbus Circle square, at dinner and with a full moon rising just behind the skyscrapers, what else to expect ´SPECTACLE'.
-The room is beautiful, completely soundproofed and with soft tones.
-The service is undoubtedly impeccable worthy of a three star rating.
-The courses eight in total that follow one another with great balance and freshness.
-Final with a bang: dessert, they never end.
-Thanks to all the staff!
-Special thanks to Benny and our sommelier Sarah. Quintarelli 2015 ❤️
-Lisa and Joseph of Chartres
-With affection",2 months ago
-Claes Mogren, 4 stars ,"Probably the best tasting food we've had in all of USA. Definitely better than Alinea, but not as good as Frantzén in Stockholm or Alto in Milan. Definitely appreciated the gift bag with treats for the day after. The matching wine tasting is very expensive, I wish there was a slightly less pricey option since it isn't that many courses.",2 months ago
-Bartosz Malarecki, 5 stars ,A dream evening. A journey. A divine experience. A to Z,2 months ago
-Annika, 5 stars ,An amazing experience! They went above and beyond to make our meal special. The service was incredible and the desserts were great.,2 months ago
-Pearl Ma, 3 stars ,Food is okay. Cocktails are fantastic.,2 months ago
-John, 5 stars ,Incredible food.,2 months ago
-Chunglin Wen, 4 stars ,"Overall a great experience. Service and ambiance are what to expect for restaurants of this caliber. Somehow I was expecting a bit more for the cuisine per se. It lacks a little bit of magic and harmony compared to other fine dining places I’ve been to in NYC. Not a total lack of, of course, but I was hoping an even higher level of excellence.
+On the plus side, the service and vibe were professional, and the waiters were friendly and accommodating. However, the quality of the food fell short of what I had hoped for.
 
-Many dishes, while good, can leave some room to be nitpicked. For instance, I find the smell of the oyster in the highly famed “oyster and pearls” a bit too salient and slightly incompatible with the rest of the dish.
+Overall, while I had high expectations for this kitchen that offers Gordon Ramsey's recipes, my experience was unfortunately disappointing. The undercooked and bland chicken breasts and the uncured meat taste of the onion soup left much to be desired. While the service and vibe were pleasant, I cannot wholeheartedly recommend this restaurant based on my experience.",2 days ago
+Helene K, 5 stars ,"Located in Harrahs and beautifully decorated restaurant. Absolutely lovely interior and ambiance.  Sat in the back near the kitchen.
 
-Dress code has been relaxed. While some patrons dress nicely, some dress in a fairly casual way. I would prefer they maintain a higher standard in this regard.
+Food: Highly recommend the Boston's Inferno cocktail.  Was smoked infused and absolutely smooth going down. Legitimately the best bourbon drink I've had to date. Friend had the spiced pear which is just fun. Recommend that one too.
 
-To end in a good point, I like the way they price. Service and soft drinks seem to be included. And the coffee is good even for a fine dining restaurant.
+We tried an assortment of appetizers.
+Crab cake
+Tuna Tartare
+Shrimp Cocktail
+French Onion Soup
 
-Overall definitely worth a visit at least once for a foodie. I’m just unsure how frequent I might visit, if I would dine here again.",2 months ago
-Zoe Nelson Morris, 5 stars ,"I've been to several fine dining, tasting menu restaurants and Per Se ranked among the best. One stand out was the ability for my guest and I to select different dishes from one another throughout the tasting - I could have chicken one way, he another. The food was perfectly cooked. My favorite dish was the simplest: buttered noodles with truffles. Dessert covered the entire table. An all around fantastic meal. I had to contact the restaurant before and after the meal and the hospitality was incredibly patient and gracious. A perfect way to celebrate a special birthday (11/2021). My only suggestion to the team is to update the furnishings and decor - it would help make the room feel more intimate.",2 months ago
-Ted Barnett, 5 stars ,Amazing food. Great service.,2 months ago
-Ayako Yasuda, 5 stars ,"Thomas Keller's Michelin ✨ three-star restaurant. Sometime in Napa's French Laundry as well. The signature oysters and pearls looked and tasted better than I imagined.
-The slow cooked lamb was also excellent.
+Enjoyed the Tuna Tartare the best, next to the shrimp cocktail.
 
-The service person who was in charge of the beverage was studying Japanese, so we had a lively conversation.
-For wine, I chose Kistler and Henri Jayer.
-The hospitality was great from start to finish. Thank you for showing me the kitchen.
-I would like to ask you again",2 months ago
-Kendra Drake, 5 stars ,Absolutely impeccable 👌,2 months ago
-Christine Xie, 5 stars ,"The food is amazing and the service is fantastic!
+I had the scallops and my friends had the beef Wellington. Scallops were cooked perfectly. Would recommend, if not having the red meat options. Dessert was the English Toffee Pudding which wasn't as sweet as it sounds which was lovely but the Eton mess was a bit more delicious.
 
-My son received his first fencing medal, and we celebrated here. Everyone congratulated him, including the chief, who served him extra dessert. As a special treat, we visited the kitchen. My son told me we had to go back to this restaurant afterward because it is so great! lol",3 months ago
-Rio Ferreira, 5 stars ,"Really an outrageous restaurant, some of the best service in NYC and a wonderful atmosphere. The tasting menu is beautifully executed and they really do give an impressive amount of food throughout your experience. The one downside we came across was that our lobster course was slightly overcooked/tough. Other than that, an absolutely wonderful experience and a must go to for any occasion.",3 months ago
-jamlick mutegi, 5 stars ,"I could not wish for a better celebration of my birthday. The experience fully lived up to the expectation in smallest detail. From the food which was a divinely crafted composition, through wine pairing, that elevated the experience even further, to the service that was just perfect. I felt grateful to be alive and able to enjoy the moment I will truly never forget. Thank you",3 months ago
-Elizabeth Gearhart (Fireside), 5 stars ,Per Se lived up to its reputation.  Excellent food and service!,3 months ago
+Service was immaculate.  All the servers were so nice and very accommodating and we shut the place down and didn't feel rushed or like we were being a nuisance for eating later. They genuinely were all kind and just great at their jobs.
+
+Would highly recommend the restaurant and all the staff. Looking forward to my next visit and another Boston's Inferno. 😊",2 days ago
+Emily HR, 5 stars ,Stopped in for lunch the day day after our amazing dinner. It was quiet and we sat right in front of the service line. An amazing experience. Lobster roll was wonderful and perfect portion for midday. The staff was very friendly and gleefully divulged the famous name sakes impromptu appearances. It will definitely be a repeat dining venue!,6 days ago
+Megan Martin, 5 stars ,"My first Gordon Ramsay restraunt experience and hands down I was BLOWN AWAY! My mom and I split the ""lump crab cake"" and the ""filet mignon"". The crab cake was divine, no fillers just all straight crab meat! It was tender, fell apart when cutting a piece with a fork and has now taken spot as my #1 Crab Cake EVER! The filet was cooked to perfection, tender, juicy and melted in my mouth like butter! Beautiful execution and presentation overall! I will ABSOLUTLEY be back and I can't wait to try more of the menu! The service was also impeccable!",a week ago
+Enrique Montaño, 4 stars ,"After the disappointment of the hamburgers we decided to give another chance to the restaurants of the famous Chef that we found by chance looking for dinner. It is located inside the Harrah's Hotel and Casino.
+We really liked the food here. The Caesar salad is large, it can be shared between 2 people.
+The delicious salmon and the dessert, pudding, a delight. I just don't recommend the risotto, which is very simple and I've had much better in Mexico.",a week ago
+Lori Kiefer, 5 stars ,The lobster roll is outstanding.  The atmosphere is gorgeous- art deco with copper.  Don’t walk by - walk in!,a week ago
+Griffen Stapp, 5 stars ,"An amazing experience of delicious drinks and food that will leave you wanting more.
+We found this place on the way out of Vegas, and had to try it mainly cause it had ramsays name on it!
+We got there during lunch time and it was empty as it had just opened. They are even opening for breakfast soon which would be a delight.
+The service was great, with only one other group they checked on us the entire time.
+We ordered a couple drink recommendations and then moved onto the main courses. We even got a beef carpaccio appetizer.   The food was all modestly priced, and was delicious for every bite.
+Highly recommend checking this place out on your neck trip to Vegas!
+Their selection of food is delicious, hand picked for the day and restaurant season, and we’ll worth it!",a week ago
+Viktoriya Ivanova, 5 stars ,Celebrating my birthday here was an absolute pleasure 🎂🎈,2 weeks ago
+C C, 2 stars ,"Was so DISSAPOINTED !
+Our waitress was wonderful, & the decor is beautiful, but the food was terrible.
+My husband ordered the Beef Wellington, it was rare, and difficult to even chew.
+The crust was soggy and the taste was bland.
+The only thing we enjoyed was the toffee pudding.
+
+The prices are rediculous for the quality of food they serve.",2 weeks ago
+Dana Jones, 5 stars ,"We decided to stop and have dinner celebrating our 8th year wedding anniversary. We've been to Hell's kitchen in the past, we thought the food was really good, this new restaurant is just as good.  Excellent customer service. I can't wait to return.",2 weeks ago
+Laurent Mazuel, 5 stars ,"Just go, this is wonderful. Not too noisy, our waiter was extra (ask for Jeff), the food was incredible. I tried the famous Beef Wellington, and this is something I can't compare to anything I even tested. Side note, this restaurant is part of the Caesar Reward if you have an account, present your card.",2 weeks ago
+Sarah James, 1 star ,"Beautiful restaurant and the food was good but our overall experience was terrible. After calling to confirm it was the same menu as Hell’s Kitchen and waiting 30 minutes to be seated (with reservation), we were told there was no vegan options. We asked the manager what could be made vegan and he disappeared for 20 minutes and we had to ask again to be given an answer. The answer: asparagus and plain risotto.
+Truly a real bummer given there’s a whole separate vegan/veg menu at Hell’s Kitchen. Also $30 for plain risotto? Hard pass.",2 weeks ago
+Alexis Rivera, 5 stars ,"My husband and I dined at Ramsay's Kitchen at Harrah's in Las Vegas. We've been to Gordon Ramsay Burger and Gordon Ramsay Steak, and now here. To say the food and service was amazing is honestly an understatement. The staff was very attentive, respectful, friendly, and dressed 11 out of 10. Not once did our glasses go below half. When my steak wasn't medium well when I received it, the chef appeared out of nowhere, I swear! I assume he caught my slight facial expression when I realized the temp of the steak was off. He offered  for it to be redone, and I accepted. The waitress and her assistant had come to our table separately, asking if everything was okay. Then the Maître D' came to our table and said dessert was on them. I was definitely not worried about the steak, but they wanted to correct it anyway they could. I've never seen this type of service, and it was phenomenal. I do feel bad for the uproar with the staff since it obviously got to the Maître D'. :( I wish I could thank Gordon Ramsay personally for his exceptional standards at his restaurants. It's worth every penny each time we go. From the time we enter, to the time we leave, we're highly impressed. Thank you. ❤️",2 weeks ago
+ardriekie barksdale, 5 stars ,"We came for our annual girls trip. John our server was awesome. Thank you for accommodating our group. Everything we ordered was great. Scallops, beef wellington, the sticky toffee pudding and even the water was awesome!",2 weeks ago
+Rhonda Mitchell (Rhonda), 5 stars ,"Update: I was contacted by the manager Joe after our first experience at this restaurant. Our first experience wasn’t the best so Joe did an AMAZING job making it right! He remained professionally, understanding and accommodating. We arrived at the restaurant at 7PM for our reservation and was seated immediately inspite what seemed to be a busy and crowded night. We had great seating by the kitchen and I enjoyed watching the staff work. The kitchen staff seemed like a well oiled machine. They even had this thing where the called out the table numbers they were working on in harmony. Lol Maria our waitress was pleasant and personable. Our food was DELICIOUS. The only thing that could have topped this experience is if Ramsay himself showed up. Everything was perfect. Thanks again Joe for taking care of us and making our second experience the best one yet. I look forward to dining here again and I can’t wait to visit Hell’s Kitchen Chicago.",2 weeks ago
+Jordan Black, 5 stars ,"What can I say aside from it's exceptional. Such a nice retreat form the hustle of the strip. Gordon and his team havereally outdone themselves. The Wellington definitely lives up to its reputation, the crab cake has to be one of the best I've ever had. Kelsey is such a gem of a server, and all the staff are some of the best in the industry. When the word gets out about this place, the reservation books will always be full! Thanks to everyone for such a wonderful dining experience. As a fellow restaurant industry member I'm pretty judgemental and not picky on small stuff. Not enough to complain, but enough to silently judge. I had absolutely nothing to nit pick. Truly a special place. It has the vibe of a stand alone restaurant in the fancy part of any city.",3 weeks ago
+Veronika Hong, 5 stars ,The food and the experience were amazing! I highly recommend tuna tartar and crab cake!,3 weeks ago
+Jennifer Boylan, 5 stars ,"This did not disappoint!    Brandon provided excellent service and made some great recommendations.    The crab cake was the best we have ever had, onion soup was to die for and don’t even get me started in the sticky toffee pudding!     This is a must and we will definitely be back.",3 weeks ago
+Patrick Ptacek, 5 stars ,Amazing scallops and pork belly where one of the best dishes in a long time. Onion soup was crazy good with oxtail and the risotto squash was more than enough reason to come back.,3 weeks ago
+Pim Kang, 4 stars ,"Great food at a high price. I highly recommend that you have a reservation before showing up at least on a weekend. We liked our food enough but not too impressed with the service. We waited more than half an hour to get our bill just to get a wrong bill. Then, we waited at least 15 more minutes to get the correct bill and then waited some more to pay. I understand that it was a long weekend and the staffs were busy but, at this price, they can afford more staff to streamline the experience.",3 weeks ago
+Isaiah Shepard, 5 stars ,Amazing food and great staff! I would recommend stopping in! My wife and I had the Beef Wellington and Scallops and they did not disappoint! We also had the cheesecake and the sticky toffee pudding for dessert. We left full and happy!,3 weeks ago
+Se-Young Jun, 5 stars ,"Had a beef wellington here and loved it. I had a beef wellington at Hell's Kitchen, and they were exactly the same dish, same flavor, same price. Ramsay's Kitchen at Harrah's was way more accessible than Hell's Kitchen and, at least for beef wellington, were serving dishes of the same quality.",a month ago
+Jaimee, 4 stars ,Get the STICKY TOFFEE PUDDING😊 …,a month ago
+Alissa Jones, 3 stars ,"My husband and I had a 8:30 dinner reservation last night. When we arrived, my husband had checked in with the front desk hostess and we’re told that we’d be seated shortly. We had waited for about 45 min before we were seated because they had actually forgotten about us (we were standing in plain sight near the entrance). In that time, we saw other parties get seated who showed up later than us. In that same timeframe, a hostess approached us twice to confirm the name the reservation was under. About 30 min in, my husband had to go to the front desk hostess again to ask what happened and they had indeed forgot us and had to scramble to find a table.
+
+The food we waited for was this place’s saving grace - the bartenders and kitchen did an amazing job with our drinks and our entrees. We loved the beef Wellington and the sticky toffee dessert. Just know that it weren’t for the Ramsay’s overall reputation, we probably would’ve left.",a month ago
+Thomas Harlson, 5 stars ,Everyone was cordial and approachable. The server made suggestions that showed how she felt about the dishes. The server was ever present but not intrusive. Our party enjoyed the entres and the sides. The sides are are sharable and tasty.,a month ago
+FunkyBadChad, 5 stars ,Ramsay’s kitchen was phenomenal. I felt like I was in the Wynn supreme high end ambience and Harrahs itself is newly remodeled. Our server Taylor was excellent and contributed to an amazing experience. The food was ridiculous I had the filet with scallops and it lived up to every expectation. It’s not on the menu but they had Jordan Cabernet which is my go to red wine. I highly recommend this spot for a unique Gordon Ramsey experience and don’t forget to try ALL the pastries made by Chef Liz.,a month ago
+James VanderWier, 5 stars ,"Ramsay's Kitchen was a great dinner visit for our anniversary.  From reception to all the people that helped with service, we were given great attitudes and smiles.  We never waited long for any request. The food was grate with the stand out being the acorn squash risotto.  Also a good bar and wine selection and great atmosphere for a couples night out.",a month ago
+Elizabeth Creutzer, 5 stars ,"Went here for lunch. Beautiful restaurant. The food was amazing! So delicious! The staff were amazing too! Our waitress Dana was so personable, knowledgeable, and attentive!
+Best dining experience of my life. Highly, highly highly recommend !!!",a month ago
+Z, 4 stars ,"Great food , atmosphere is ok if you get a table , not so good at the bar , had the scallops and enjoyed them , the pork belly really added flavor , unfortunately the service was poor at the bar , never came back once for refills or second drinks , thank you !",a month ago
+Deneen Klusman, 5 stars ,"The meal at Ramsey’s Kitchen was amazing. My husband and I got an entree each and shared. The 24 oz ribeye is the best steak I’ve ever tasted. The scallops were cooked perfectly. The potato purée was delicious and plenty for two people. The service was terrific. The drinks from the bar were excellent. The deserts were great, too. It was a great experience from beginning to end. I would suggest a reservation (we didn’t have to wait).",a month ago
+keith viveiros, 5 stars ,"To start, our servers Victoria and Remy were spectacular.  Everything we ordered was expertly prepared and delicious. This is a long experience if you're doing all the courses; over two hours for us.  If you do just one course you can get out in an hour, but please don't.  Ramsay's Kitchen, only open three months now, is an experience to be savored.  I recommend you make reservations.",a month ago
+Galdino Davila, 5 stars ,"Desert is spectacular, food is great, just shy of out of this world. Service is fantastic.",a month ago
+leon g, 5 stars ,"This place just opened in November but is now one of our favorite restaurants. The décor is modern, the lighting is excellent, the staff is attentive but not overbearing AND, most importantly, the food is amazing.  We had to go back two days later to try other dishes.  I had Beef Wellington - awesome. My wife had the rib-eye with shrimp, also awesome.  On our second visit we had the crispy skin salmon - done to perfection and me, Beef Wellington - again. Can't get that dish, so perfectly done in other places. It definitely is not (""it's f_______ raw"").  Also recommend the beet salad appetizer.  The manager (Yasmini) is really on top of things, ensuring total customer satisfaction. His desert recommendation, Sticky Toffee Pudding and an espresso, hit the spot perfectly to end an awesome night out. I appreciate professionalism and awesome customer service. Thank you.",a month ago
+Josh R, 5 stars ,"First time visiting this new Gordon Ramsay restaurant and definitely won't be the last!
+
+Our waiter Brandon was an absolute delight, Alberto is just the best, and the management team was nothing short of amazing. Best dining experience we have had in Vegas in a very long time.
+
+Amazing drinks. Amazing food. Amazing ambience. Amazing service.",a month ago
+Josh O'Bannon, 5 stars ,"What an amazing experience!  From cocktails to appitzers through the main course to desert, everything was SPOT ON!  I cannot suggest anything to make it better.  Everything was cooked perfectly!  The French onion soup was unbelievable, the beef carpaccio was decadent, steaks were cooked perfect all the way through, the sides were flavorful, the deserts were not too sweet and amazing!  I will admit that I watch Hell’s Kitchen EVERY MORNING when I wake up.  But I tried to not let that play into my experience.  In all honesty, I was probably more aware and critical than if I had not watched the show.  It met every expectation and some.  I don’t think I have had a better experience in some time.  And I was at the Golden Steer and triple George the last two nights, so it’s not like I’m comparing this to In-N-Out!  The wine list was well put together, cocktails were spot on, just overall the best I’ve had in a long time!  ‘Content’ with this years Vegas trip is an understatement…. We’ll done Gordon Ramsey, well done.  And cheers to Autum, our waitress, she was solid.  She knows the menu, has a great personality and is clearly a seasoned professional.  I wish there was something I could criticize, but I’m coming up short trying to find something…. Ok, the only think I can think of is the fact that it pretty much died down by 9:30PM.  It would have been so fun to see the music get louder and another crowd come in for the late shift!  I know, I get it, that’s not your intent.  Thank you, Gordon.",a month ago
+Marina Gomez, 5 stars ,"The start was a bit rocky...But definitely made up for it Taylor and Samantha were amazing I had the crispy scin salmon 😋 huvvy had the filled 😋 unreal. Tuna tartar with house mad chillie oil was fantastic. The mushrooms are unforgettable. Because of the rocky start they comped our dessert which was the best dessert I ever had. It was light refreshing citric. I do not like sweets and after the crispy skin salmon it hit the spot.
+Thank you!",a month ago
+Latassha Moore, 5 stars ,"Amazing experience.  The food was exceptional as well as the service, top notch.  The cocktails were the cherry on top! We were in town for a convention and had to eat at a Ramsey restaurant, I highly recommend this one, low key, fun, and just a memorable experience.",a month ago
+Random Burger, 5 stars ,"Great service and atmosphere. Food exceeded our expectations as we thought it would be just another overated celebrity restaurant but was pleasantly surprised. The Beef Wellington really lives up to its fame, and the cauliflower puree is very smooth and delicious, paired well with the salmon.",a month ago
+Adie K, 5 stars ,Great atmosphere and great food,a month ago
+Peter McCumber, 5 stars ,"First time here.  I eat at several high end restaurants at home, so I was interested in seeing how the man, the myth, the legend, the franchise stacked up.  After all, I’ve been watching him on TV for a decade.  Let’s see how it goes.  We were greeted by the hostess and sat promptly in a quiet well lit corner booth.  Hostess and server were both very friendly, prompt and professional.  I ordered a crab cake appetizer and shrimp cocktail.  My wife ordered Caesar Salad.  With my entire family coming from Maryland, it only seemed natural to I own a crab cake empire making hundreds of thousands  of crab cakes.  So of course I was a certain Gordon’s crab cake wouldn’t measure up.  I was hoping for an 8 on a scale of 1-10.
+
+The crab cake came first and for the first time in my life, I found a crab cake better than my family’s recipe.  The consistency, texture and flavor weren’t much different than mine, but somehow Ramsey was able to source much larger lump meat than I had.  Of course, neither of ours showed any filler whatsoever, but the quality and size of the lump meat was clearly the difference.  And I thought I bought the best meat.
+
+The presentation of the shrimp cocktail was nice.  The shrimp were large but very tough and had almost no flavor.  You can’t win them all, I guess.
+
+I bought the Filet Mignon.  I’m usually a New York Strip guy, but the restaurant had run out of those.  I ordered the filet medium.
+
+The food came in record time.  To be fair, the place wasn’t terribly busy, but I suspect that the staff are used to operating with an efficiency that keeps things moving quickly.  The steak looked perfect.
+
+The flavor was fantastic and the meat was as tender as any cut of beef I’ve ever had.  It didn’t indicate it on the menu but I was fairly certain the cut was Choice and not Prime, even still, it was cooked to absolute perfection and tender and as flavorful as you could imagine.  For $55, I think it is the deal of the century for a Filet Mignon.
+
+I asked the server if she knew the quality of cut.  I was shocked that she immediately knew that it was a choice cut of meat.  She stated that they were moving to prime cuts of meat when supply issues were resolved.  I CAN’T WAIT TO SEE what they can do with prime, based on what they did with choice.
+
+Chelsea was the perfect server.  She was the perfect blend of attentive but not intrusive.  She answered every question quickly and accurately.  She even tried to resolve the shrimp cocktail issue, but I wouldn’t let her.  I never ran out of drink and never lacked for anything.  I wish she could be my server every restaurant I eat at.
+
+All in all, a pretty fantastic experience.  If you go, ask for Chelsea.  Tip big.  She’s worth it.",a month ago
+Renee G, 5 stars ,"Staff was attentive and I always had my water glass filled, the food came out in a timely manner. The food was delicious. I would stay away from the mac and cheese and stear towards the seafood. You can get his famed Wellington and a lot of locations so we opted not to get this as well. The scallops were perfect as well as the salmon. The seafood tower was also delicious, Vegas does do a lot of seafood. The deserts do not disappoint either.",a month ago
+Chris S, 5 stars ,Hands down the best crab cake I've ever had,a month ago
+Steve Olsen, 3 stars ,"Scallops were very good, like out of this world good. Beef Wellington was ok, maybe I just don’t like Beef Wellington… Other people seem to say it is good, so I don’t know. Sides were also ok. Service was ok. Drinks were good.
+
+Common restaurants get 4 stars for being ok. This place gets 3 stars for being ok with a $300 check. Not in a hurry to return.",a month ago
+NEOAWARE VERSEKER, 5 stars ,All was perfect and there is free unlimited water!!!,a month ago
+shravya shashidhar, 1 star ,"King crab starter was pretty good. The liquid inside the shell was kept intact which added to the flavor. Next we ordered Butternut squash risotto one with egg and other with chicken. It tasted a lot like the US variant of Indian dish Khichdi. Dint have any flavor and was just bland. The chicken was rubbery and had absolutely no taste. The roasted chicken breast which we ordered was the last attempt to not be disappointed at this place, however it turned out to be the worst dish among the three. Outer layer of the chicken was roasted with absolutely no flavor within. Desserts were ok too.",2 months ago
+The Huff Family, 5 stars ,"We had a wonderful experience. We were there for a conference and we're looking for a nice dinner that we could not get at home.  Natalie P was one of the best servers we have ever had.  She was so personable and knowledgeable.  You can tell she really enjoys her job and was happy to be there, which is rare in today's world.  The food was exceptional.  We had King Crab Legs, crab cakes and scallops.  All of them were delicious.  To finish off the meal we had the Chocolate Mousse.  One of the best desserts we have ever had.",2 months ago
+Steff A., 5 stars ,"Party of 6 for my friend's birthday dinner made for a great experience at Ramsay's Kitchen.
+
+The dining area is gorgeous with contemporary decor and creative lighting options. There's a full service bar which was also packed during our Saturday evening visit.  Our server was on point with going through the menu and the specials for the evening.  We never had to look for him once as he was around frequently to check on us.
+
+French Onion Soup - This was the most flavorful French Onion soup I've had in a bit.  I love how the bread, cheese and beef arrives planked on top of the bowl, ready for you to drop it in.  Very savory, cheesy and a perfect start if you're looking for soup.
+Seafood Tower - You know what these are about.  Every sea item on here was fresh.
+24 Ounce Bone In Ribeye - Medium Rare is my thing and the Kitchen cooked it perfectly for me.  Red, juicy and delish
+
+All the side dishes were good to go...
+asparagus
+mushrooms
+broccolini
+
+Eton Mess - This was my first Eton Mess and it was great.  Strawberries, berries, whipped cream and some kind of meringue makes for a sweet (not too sweet) dessert.  It's light which was perfect right after i took down my 24 oz. ribeye. lol
+
+Overall, this might be my current favorite Ramsay restaurant.  I will definitely recommend and visit again soon.  Cheers!",2 months ago
+JR Nekro, 5 stars ,Ramsay's Kitchen was truely amazing! Our waitress Natalie P. was one of the best we have ever had. The wellington was so delicious I am contemplating sewing my azz shut. True Story!,2 months ago
+Paula Staver, 3 stars ,"Dinner reservation for 2 birthday celebrations on a Wednesday evening. Restaurant is easy to access from the parking garage.
+We were greeted right away and sat within a couple minutes. The restaurant was about half full.
+Very pretty decor but the restaurant is loud and hard to have a conversation.
+For starters we had the crab cake, which was delicious, shrimp cocktail, which was also very good, onion soup which was also good and the beet salad. The dressing on the beet salad was VERY heavy on horseradish- that was all you tasted. I wouldn’t order it again.
+Mains were salmon, ribeye, beef Wellington and oysters. Rib-eye was basic. Bernaise sauce had to be returned as it was cold. Beef Wellington was insanely tender but also served less than lukewarm. Purred potatoes were amazing. Carrots were still rock hard and cold. Broccolini had to be returned as it was very cold. It was returned to the table after all eating was completed so they comp’d the item.
+Since we were celebrating birthdays, they brought out two stinky toffee puddings which were delicious.
+If I were to return, I’d wait some time as they are still pretty new, and I’d order the crab cake and sticky toffee pudding.",2 months ago
+Antonio Orozco, 5 stars ,This is a must try if you are in Vegas!,2 months ago
+Edwin Romero, 5 stars ,Harrahs - This new restaurant is fantastic. Tried it twice excellent both times great food great service,2 months ago
+Jack D, 3 stars ,"Went for New Years Weekend....I have been waiting so long to go to one of Ramsay's restaurants and I must say I was a bit let down, especially since I went to another high-end, not publicly well-known restaurant the night before (which was much better). Food was decent, but nothing special except the potato puree which was excellent... and the drinks?! A total rip off! I spend $19 on a small margarita that had one giant ice cube that took up most of the small glass, leaving me with very little to drink. I may have ranked it 4 stars if it weren't for the size of my drink. We didn't even bother with dessert. Crabcake was not my fav, I've had way better elsewhere and I ended up removing the entire outer portion of my Beef Wellington as it was not very flaky on the outside more mushy than anything and just ate the filet by itself. Plus, when reserving I indicated it was for a birthday and they sat us at a small table in a dark corner right by the front door of the casino with a giant pillar next to us, (not the best spot for a table), you could smell the smoke coming from the casino. The waiter and his assistant were good though :-)",2 months ago
+K C, 5 stars ,"This place is definitely worth a visit on ur special occasions.  We celebrated our 10th Anniversary here.  From the time when u call for reservations and throughout the evening the staff were uber courteous and made you feel special.
+The food was good,  decent portion sizes and unique that you know this is special…  Crab cakes , the risotto and mushrooms were just delicious!!
+
+The eaton mess was lite and a good end to the evening..
+
+Only thing is that Harrahs doesn’t go justice to such an amazing restaurant.   But over all best experience…
+
+Thank for for amazing memories on our 10th Anniversary.",2 months ago
+Maricarmen Portilla, 1 star ,"Very disappointing. High expectation, very poor delivery. Mac & cheese side uneatable. Don't waste your money. Highly commercial, with luxury prices.",2 months ago
+Amy Orchard, 5 stars ,"What a pleasant surprise. Stepping into the restaurant from the casino, it’s like night and day    as soon as you walk in, you get that five star feeling . I had the staples beef Wellington, and sticky toffee pudding, they were excellent. The Foie Gras on Apple fritters was amazing. The service was second to none. Very well educated on the menu as well as wine. I’ll be back for sure.",2 months ago
+George Johnson, 5 stars ,First time eating here and the food was excellent and the service even better.  Our waiter Jeff was fantastic!  He knew the menu inside and out and make an excellent wine suggestion.  Can’t say enough good about him!,2 months ago
+Nicole Amber, 5 stars ,"Located in Harrahs - This new food option is fantastic. We are happy we checked it out. We just got starters but they were delicious. Caesar salad, mushroom, and Mac and cheese all have enough for 2 people to share. We also got a onion soup and it was good!
+Service was great. It had a quiet, relaxed feel. With 4 starters and 2 drinks was around $105.00 !
+Would go back again to try an bigger supper meal :)",2 months ago
+Eduardo Martinez, 2 stars ,"I've gone to hells kitchen twice and delicious, ordered same beef wellington and very disappointed",2 months ago
+Brie, 5 stars ,"We had a great time here at Ramsey’s kitchen! We didn’t have a reservation but the hostess Hope was amazing and made it happen. She was the best hostess. So friendly, sweet and helpful! Just awesome! We sat in the lounge and Sue our server was on point and so lovely and attentive! Great service! The food was amazing. I had the crispy skin salmon and broccolini it was delicious and my boyfriend had the beef Wellington and the risotto and they did not disappoint. Thank you Hope and Sue, we had an amazing night!",2 months ago
+Kalli Portillo, 5 stars ,The atmosphere was nice. Food was very good. The service from waitresses Kelsey and Ashley made it the best! Superior service.,2 months ago
+Aprin C, 5 stars ,This is one of Gordon Ramsey's restaurant located in Harrah's. The food was absolutely phenomenal!!! The service was great as well!!! I recommend getting the Beef Wellington and Sticky Toffee Pudding which was out of this world fantastic!!!,2 months ago
+Robert Mitchener, 5 stars ,"This is a diamond in the rough of fantastic bars when it comes to Vegas. After trekking up and down the strip it's difficult to find a place that has a good cocktail menu, has an acceptable liquor selection, and will make off menu cocktails.
+
+I actually came here when they first opened and then returned again a couple months later to compare. John the bartender is fantastic and on point, he even remembered me from between the visits. All the staff are just as friendly as before and the drinks and food are just as well prepared.
+
+The first time I came here I got the small seafood Tower and the shrimp cocktail. All the seafood was fresh and delicious, the platter came with crab, muscles, oysters, shrimp, and lobster.
+
+I also got a variety of drinks all made very well including the: Witch's Elixir, The Spiced Pear, 90 Degrees in the Shade, and the Strawberry Chocolate Negroni.
+
+They'll tell you the petal is edible on the Witch's Elixir, and it is, but it is very bitter.
+
+Overall this place is a well worth pitstop on your crawl through the strip if not for a full meal then maybe just a drink.",2 months ago
+Katia Beraza, 5 stars ,The food is delicious and the service awesome!!!,2 months ago
+Tyler Sell, 1 star ,Water was so nasty i couldn't drink it. The insides of the wellington were inedible. The ceasar salad had extra dressing on it and it just tasted like green. The Mac and cheese was bland id rather make it out of the box,2 months ago
+Mrs. P girl, 3 stars ,"This was our first time here since they closed the oyster bar. I would prefer the oyster bar over Ramsay's kitchen.  The oysters are ridiculously over priced not to mention the wine is $22 for a glass of wine that you can get at any local grocery store at the same price for the bottle and the good wine is even more expensive. I had the beef wellington, and it was ok. I've had better. The asparagus was flavorless. They don't have any A1 sauce, and they want you to purchase their flavorless steak house made sauces. The onion soup had no flavor until I pust salt in it, which made it much better. The mac and cheese wasn't worth it. My son and my husband said mine is a hundred tumes better. The server was very knowledgeable about the menu.They don't allow you to bring outside drinks in. You have to finish your drink before being seated, so you know they want you to purchase their overpriced drinks. This restaurant doesn't fit in at the Harrah's at all. The steaks were priced about the same as any other steak house. We come to Harrah's at least once a month, if not more, during football season.  We will stick with Cut in the Venetian for our oysters and steaks from here on out. The one thing we loved was the crab cakes they were filled with big pieces of delicious crab. The way they talked this restaurant up, I guess I was just expecting more.",2 months ago
+David Schiller, 5 stars ,"Surprisingly good restaurant to be in Harrah's.  Its new, so they are still working out the kinks (especially the front bar before being seated,  where there were so many workers but they seemed to all be in training mode).  Once seated however, the setting and and overall experience was great. Food was consistently great for all three diners, from the starters to the main courses to the desert. Wait staff were good (especially the ""assistant???"" Amir!) So friendly and made it a great evening.  Crab Cake was full of crab, not fillers; onion soup was so flavorful and NOT just all onions like everyone else does; Bone in ribeye prepared more grilled than charred, which was a nice change from every other place in Vegas; the filet was perfect and the Beef Wellington made it a triple play!.  Sticky Toffee Pudding, say no more.  Will definitely head back next visit.",2 months ago
+Jianian Lin, 5 stars ,"Very excellent food. With pretty nice service.
+
+I ordered the pure crab cake and scallop as the waitress suggested. Also ordered a  bone in ribeye to fill my stomach. All these food has gorgeous arrangement. The green onion, citrus have wonderfully balanced the taste. Demi glace on the ribeye is provide more flavor to the beaf with a taste of red wine. Pork belly with scallop both are soft and umami. I am looking forward to visit Gordon's restaurant again!",2 months ago
+Ksenia D, 5 stars ,Everything and everyone were amazing,2 months ago
+Treniece Teets, 3 stars ,"Crab cakes were delicious. Beef Wellington was underwhelming. The steak was not very flavorful and chewy. Mac and cheese was mediocre. Overall, not what I expected for a Gordon Ramsey restaurant.",2 months ago
+Sunny Soto, 5 stars ,"Wow wow wow!! Ramsay's Kitchen has only been open about 6 weeks and they are already executing an experience I know chef Ramsay would be proud of. I work in the restaurant industry and I love to treat myself on vacation to a great dining experience, this did not disappoint!
+I didn't have a reservation but the host didn't make me feel bad about it, she got me a great table in the bar area. I was able to watch the football game on as well, which was a great option since my team was playing. Hope, the hostess noticed my Raider hat and made sure I had a front row seat to watch the game while eating. My server, Jahir and his server assistant were so amazing. Jahir walked me through the menu and they both suggested their fave dishes. The bartender even made me a couple different delicious mocktails since I mentioned I didn't drink. I took a couple suggestions from the guys and ordered a grape Flatbread with blue cheese and balsamic. It was delicious and crispy. I had the roasted chicken on polenta and a side of Mac & cheese for my main courses. I must say I don't like Mac & cheese normally but this was absolutely divine! The pasta was perfectly cooked the combo of cheeses was rich and indulgent but supper flavorful. The chicken was moist and tender, the vegetables that came with it could have been more tender though. I saved room for dessert and had the Eton mess. It was fresh, vibrant, and absolutely delicious! The mirengue was melt in your mouth delicious! The kitchen is killing it. The staff was so on point I still can't believe they are only 6 weeks in, congrats to you all on a great opening!",2 months ago
+Mike Cheng, 5 stars ,"We were there at Ramsey's kitchen last night celebrating my daughter's 18th birthday while vacationing in Las Vegas for Christmas.  Also, we are here to see if Gordon Ramsey's restaurant are worth the hype. Well, behold, it was worth the hype, and the service was impeccable.  I had watched just a few videos prior to going to see what dishes are worth trying, and ended up getting the lump crab cakes, King crab leg and 1/2 dozen oysters on a half shell for appetizers.  Definitely amazing and delicious.  Then for entrées, we ordered Crispy skin Salmon, Pan Speared Scallops, and a 24 oz bone-in Ribeye.  They were unbelievable.  However, the ribeye was not as tender as I had expected even though I had ordered medium rare.  So, perhaps it's the type of beef or it wasn't aged that it was chewy.  Then we had an incredible potatoes puree that was silky smooth and Mac and Cheese to share.  Finally, we ordered the Sticky Toffee Pudding and Eton's Mess, which both were absolutely amazing.  In fact, I believe the dessert was the highlight of the meal, but everything else was definitely worth the money and experience.  Reservation is a must, and I'd would at least book a month ahead.  Overall, highly recommended!",2 months ago
+Penny Erickson, 5 stars ,"100% Recommended! We looked at the menu before arriving so knew exactly what to order. Two appetizers, two entrees, two desserts and one cocktail came out to just over $200. I find that MORE than reasonable for the wonderful taste experience we had. Everything was fresh and delicious. The ONLY thing wrong is it’s in Vegas and I’m not anymore. I want to go back. I cannot end this review without mentioning the staff. They were as much a part of the experience as the meal and just as great!",2 months ago
+Andre, 5 stars ,"We went here for our Christmas dinner. We were there 15 minutes before our reserved time and were kindly directed to the bar where we drank a delicious cocktail.
+Our table was ready at the time reserved.
+We had the king crab for starters. Sharing the starter was not a problem. The appetizer was delicious.
+For mains we had the Filet Mignon and the Beef Wellington. The two main courses tasted excellent and were perfectly prepared.
+The dessert was also very tasty.
+The staff was nice and helpful.
+The restaurant itself is stylishly furnished, but you have to go from the restaurant to the casino to get to the toilet.
+We had a great evening at Ramsay's Kitchen!",2 months ago
+Nick D, 5 stars ,This place was amazing the decor was very nice for a kitchen in a hotel by Gordon. The service was the best everyone was so nice and enjoyed working there especially my waiter names Jeff who was very helpfull and nice. Lastly the food is worth every penny has items from the actual hells kitchen such as the wellington and filet mingnon that we got which were so good even in medium rare which we dont really get. This place was the best 10/5,2 months ago
+Sherry Zhu, 5 stars ,"This place was sooooo good. We had onion soup, Beef Wellington, Salmon, Mac n Cheese, a chocolate mousse and toffee pudding. Every single dish was beyond my expectations. The service was fantastic and we were well taken care of. Price is reasonable giving the food and service quality here.",2 months ago
+R C, 5 stars ,Great foods! Service is super good too! Will definitely come back!,2 months ago
+Brenda V., 5 stars ,"Beautiful restaurant with great food and friendly, knowledge staff. The food did not disappoint and I can't wait to go back. The Butternut Squash Risotto was so good I actually just savored every bite! Natalie, our server, had many gluten free options for my friend to choose from. Then, dessert, the sticky toffee pudding... Perfect!",3 months ago
+Bench Press Betty, 5 stars ,"My fiancé and I were looking for a romantic restaurant to celebrate the debut of my new small business at the Olympia Expo and we learned about Ramsay’s new restaurant in Harrahs!
+
+Tucked away in a quiet corner, it has a very classy and intimate feel. The staff were very warm and welcoming. We hadn’t made a reservation ahead, but we’re able to sit in the lounge area of the bar. It was very roomy and comfortable.
+
+Their beverage menu was extensive, and so enticing it was hard to decide! I noticed several patrons at the bar sipping the Prestige Martini, and never having had a classic gin martini, I decided to give it a try! It was delicious with just enough lemon zest to balance the gin. They’d sprinkled some sprigs of saffron in it which tasted great, but I later learned it does stain your teeth…might not want to include that if you have pearly whites.
+
+I’d always wanted to try Beef Wellington! When it came to our table, I was in awe! The crust was cooked perfectly crisp. I’d ordered it medium, and it was cooked just right. The potato purée was a nice balance to the flavors of the Wellington. I wish I could have requested some additional red wine demi-glace. It was so rich and delicious!
+
+My fiancé got a filet mignon and it was just the right portion. They offer toppings, but he enjoyed just eating it without. We also split a family style portion of creamy mac & cheese.
+
+I only wish we’d had enough room left to try their savory sweet desserts! Gordon Ramsey features a recipe he learned from his mother for sticky toffee pudding and it was the talk of the town! Perhaps next time we visit, we’ll drop by JUST for drinks and dessert!
+
+It was the perfect ending to a wonderful weekend that will hopefully open many doors and opportunities for my new growing small business!",3 months ago
+Adam Deary, 5 stars ,Fantastic meal for thanks giving. Service and quality of food was incredible.,3 months ago
+Gregory Pappas, 3 stars ,"We wanted to be impressed with Ramsay's new restaurant. First impression is not great as it's right off the casino floor, and not a particularly upscale casino in the least. Wife's birthday so we had noted such on the reservation which was acknowledged. Nonetheless we got seated in terribly uncomfortable chairs and table just next to the bar and barely in from the casino floor. They accommodated our polite request to move gladly, but my wife noticed the server whose section we moved to roll her eyes when told of our move request. That is tough to overlook. However service was fine with a smile. In general the service 'warmth' seemed contrived and scripted. Prices are aligned with this type of restaurant in Vegas...meaning overpriced. Wine selection was so disappointing, minimal options by the glass. It was similar selection to more casual restaurants, nothing particularly interesting. I asked if they had a zinfandel by chance despite not being on the list. Typically in fine dining restaurants they will check with the sommelier (which I don't think they have) or the bartender and consider opening a bottle. I was shot down with just a comment that they don't have zin by the glass. Okay fine. We shared a mixed green salad to start. Very bitter from the excessive kale, little creativity and the dressing wasn't balanced to my taste. Then we shared a crab cake and the signature beef Wellington. Crab cake was phenomenal. Pure lump and jumbo lump meat with no filler. A top 3 I've ever eaten. The beef was fine. Cooked properly, but lacked a punch of flavor. It was simply okay, and not worth the price to us. I certainly wouldn't go back except for the crab cake possibly. Perhaps we are spoiled by the amazing quality and value of so many restaurants in our foodie city of Houston. I always feel a bit disappointed with Vegas fine dining and this was no exception.",3 months ago
+Broadus West, 1 star ,"Thumbs Down the food was cold and disgusting. But get this the service was worse than that. For the over priced slop that we had.
+""Never again""",3 months ago
+Joshua Hughes, 1 star ,"Worst food in Vegas to date.
+
+Came for dinner, got seated behind a pole. Ordered crab cake, salmon, and Mac and cheese.
+
+First salmon came out raw and cold. Second one wasn’t much better but at least edible. Rest of the food was just ok.
+
+Manager, I assume, brought the second one and said he would comp the meal. But then got the check for everything including 2 salmons.
+
+They took the second one off but still way too much for the lackluster meal and service. Standards at his other restaurants set the bar too high for this one.
+
+Will not return most likely.",3 months ago
+Darren Ursua, 5 stars ,"We decided to eat here for my friend’s last stay for the night in Vegas. I Didn't know there was Ramsay’s kitchen at Harrah's. It was a weekday that wasn't too crowded, and we were seated right away. Everyone greeted us and helped us throughout our stay. We had the beef Wellington, which surprised made me whole. The salmon and oysters were also good choices. Pricey, but we expected that. Highly recommend.",3 months ago
+Kassi Zorzan, 5 stars ,"I can’t even. This was our first Gordon Ramsay restaurant- and it was also a last minute find. We didn’t even realize it’s only been open a month.
+
+HOLY COW was it amazing. Gordon Ramsay- you know where it’s at!
+
+Ambiance and decor were amazing. Our waitress was SO good and so much fun. She was awesome.
+
+The food though- absolutely spectacular. Everything. 2 appetizers, 1 side, 3 dishes for 3 people, and 2 dessert. All amazing. Both my husband and I actually thought it was better than the Michelin restaurant we went to on the strip.
+
+You will not be sorry! To treat yourself!",3 months ago
+Miguel Cordero, 5 stars ,Good food and our wait staff were top notch. Definitely a good experience!,3 months ago
+Erica Appleton, 5 stars ,Amazing food. The mushrooms were an experience of their own! By far one of the top 3 best things I’ve ever ate. The steak was amazing too. Worth every penny. Staff were amazing and the restaurant is beautiful!,3 months ago
+Tara Howe, 5 stars ,"Utterly phenomenal experience. Food was fantastic, service was exceptional, and just so damn amazing.",3 months ago
+Gregory Will, 5 stars ,Great food! Great service!,3 months ago
+William Moloney, 3 stars ,"The staff was friendly, polite, and helpful.
+
+The food here was mediocre at best - on par with what you get at an Applebee's or Fridays. I had the butternut squash risotto (listed as a signature dish).  The risotto was greasy and heavy.
+Everything is served a la carte, so we ordered and shared all of the sides available on the menu. The asparagus was so undercooked that it was too tough to eat and went to waste; the potato puree  had so much crema in them that they didn't even taste like potatoes; the broccoli was decent but nothing special- basically what you would expect from a big box chain restaurant; the mushrooms were good; the mac and cheese was overdone and tasted like it came from a box. In the end, most of the sides were so mediocre that they went unfinished. The only saving grace of the whole meal was the sticky toffee pudding dessert - which was very good. The dessert drove this rating up a star. Without dessert, I would have given 2 stars.
+
+I came with higher expectations given how picky Gordon is, but I left disappointed and wondering - what if Gordon himself was served food like this?",3 months ago
+Roger Leek, 4 stars ,"I wish I could give five stars, but my Beef Wellington was mushy and only lukewarm. My table mates said I should send it back, but honestly there is some level of intimidation at the thought of sending back Ramsay's signature dish. Otherwise our experience was pretty good. The restaurant wasn't too busy, so our waiter was very suggestive, to the point of annoyance at times and seemed visibly disappointed if we didn't order something he suggested. He also wouldn't tell us the price of the special when we asked. Overall, I'd probably go again and not get the Wellington.",3 months ago
+Dave Hoder, 3 stars ,"We were there the first Saturday they were open, and I expected better - It seems Gordon Ramsay is just selling his name since he wasn't even there to oversee the opening of his own restaurant. I’ve been a line cook at the opening of a new restaurant and know it takes a bit of time for everyone to find their rhythm but no one in the kitchen seemed to be in charge.
+
+For a starter we ordered a simple flatbread and it took an hour to arrive (we had an early 6:15 reservation and the restaurant wasn’t even half full yet). When it finally came it tasted good but was greasy and soggy.
+
+I had Beef Wellington for the first time and the pastry was thin and soggy. It looked good but I expected something similar to a pot pie crust with some bite to it.
+
+My wife had the Salmon and while it was perfectly cooked, the texture was mushy instead of flakey (like maybe it was pre-cooked in a Sous Vide). I’m from the Pacific Northwest and know the taste and texture of good salmon.
+
+The staff was great and didn’t charge us for the late starter and even gave us complimentary deserts since we were there over 2 hours.
+
+Hey Gordon: Put on some makeup so they don’t recognize you and go critique your own restaurant 😊",3 months ago
+Brandon M, 3 stars ,"I'm at a loss here. I really wanted to like this, as I've been a huge Ramsay fan for years, been to every 1 of his places both in vegas and to the la hk. This place is missing some magic. It was very drab and almost empty for an opening weekend(11/19/22) Felt like an old forgotten second restaurant that everyone left in the past. Had a dramatic uprising argument break out on the floor and the place still felt stodgy. Its clear that they were going for a low key lounge type of place, a complete removal from the extravagant fancy environment of usual Ramsay locales. Friendly staff, pretty quick food turnaround and though I've always felt every restaurant uses way too much salt (and this place is absolutely no exception) myself and my girlfriend did enjoy the dinner. But next time I'll be going back to a mainstay. Just not the fine dining experience I go out for here. Not a total negative time, just not what I would have hoped for.",3 months ago
+Bri M, 5 stars ,"Amazing restaurant! Went on the official opening day 11/25 (it was in a soft launch for a couple weeks). Ordered a couple cocktails, the oysters, salmon (it's supposed to be cooked medium rare, per the waiter), and the toffee pudding. Everything was so delicious, plated beautifully, and we had a wonderful waiter!! I loved the ambience and the attention to detail when it came to serving us. Wait time felt like nothing. Everything was impressive.
+
+I will be definitely be coming back and telling everyone about this place. I loved Hell's Kitchen, but this will definitely be my new spot. It's worth every penny. ****I'm also in the food industry as a GM ;)",3 months ago
+Jeremiah G, 5 stars ,Great food and amazing service. Beef Wellington was cook to perfection!,3 months ago
+Jason Hamilton, 5 stars ,"Considering how new this place is (Nov 2022), they're excellent right out of the gate. Service was amazing. I skipped appetizers and went straight for the files mignon. I've had many great steaks all over N America and this one will be memorable. Perfectly cooked, but I was even more impressed with the sheer quality and flavor of the cut.
+Drinks were excellent, prices are good for where you are and what you're getting.
+Great evening.",3 months ago
+Eric The Ruler, 5 stars ,"Ramsay's Kitchen was a top notch experience and I've a whole section in a different restaurant cleared out for me so I don't say that lightly. My server Kelsey really displayed the best customer service I've seen. Garrett, the server's assistant, was genuinely friendly. I felt like a star. I'm definitely looking forward to my next visit!",3 months ago
+Chris Williams, 5 stars ,"The staff are spectacular. Dana was utterly amazing. I would return simply because of her attentiveness and friendly demeanor.
+
+Bathrooms are outside the restaurant at this time and that is a little annoying. It seems they are still being worked on though so should be available soon.
+
+Cocktails and the bar staff themselves are great.
+
+Food was generally very very good. My steak was over done but they offered to fix it right away. I am not one to waste a cut of steak so I ate mine and it was still good. The manager came over as I was finishing and he offered to prepare another steak for me. That was appreciated but not necessary.
+The sticky toffee pudding, is different from Hell's Kitchen but is equally as delicious.
+
+If you are looking for some Ramsay flare, you will find it here. Will very likely return on the next trip to Vegas!",3 months ago
+Craig Gibson, 5 stars ,"Waitstaff was incredibly attentive and great.
+
+Food was wonderful as well.",3 months ago
+Bandido Anderson, 5 stars ,Service was amazing.,3 months ago
+Jeff Lawrence, 5 stars ,"After years of following chef Ramsey and this being the first visit to any of his restaurants, this experience did NOT disappoint! It was amazing! Thank you!",4 months ago
+Lily, 5 stars ,"Really good food and great service from our waitress Sue. Got beef wellington, pan seared scallops, beef carpaccio, foie gras, and sticky toffee pudding.",4 months ago

@@ -17,14 +17,14 @@ class ScrapeData:
     __ratings = []
     __reviews = []
     __posted_dates = []
+    __scrapped_data = pd.DataFrame
 
     def __init__(self, url):
         self.__web_url = url
         self.__browsewebpage()
 
         self.__getreviewdata()
-        data = self.__preparedataframe()
-        self.savetocsv(data)
+        self.__preparedataframe()
 
     def __browsewebpage(self):
         # -- Setting up the webdriver to browse the URL -- #
@@ -39,20 +39,20 @@ class ScrapeData:
         driver.get(self.__web_url)
 
         # clicking the sort button to select the options (to select the newest reviews)
-        wait = WebDriverWait(driver, 10)
+        wait = WebDriverWait(driver, 3)
         sort_bt = wait.until(EC.element_to_be_clickable((By.XPATH, '//button[@data-value=\'Sort\']')))
 
         sort_bt.click()
-        time.sleep(5)
+        time.sleep(2)
 
         # clicking the newest value from the dropdown
-        wait = WebDriverWait(driver, 10)
+        wait = WebDriverWait(driver, 3)
         newest_bt = wait.until(EC.element_to_be_clickable((By.XPATH, '//div[@class=\'fxNQSd\'][2]')))
 
         newest_bt.click()
-        time.sleep(5)
+        time.sleep(2)
 
-        waiting_time = 5
+        waiting_time = 2
 
         # Get scroll height
         last_height = driver.execute_script("return document.body.scrollHeight")
@@ -65,7 +65,7 @@ class ScrapeData:
             # Scroll down to bottom
 
             ele = driver.find_element(By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]')
-            driver.execute_script('arguments[0].scrollBy(0, 5000);', ele)
+            driver.execute_script('arguments[0].scrollBy(0, 10000);', ele)
 
             # Wait to load page
 
@@ -80,7 +80,7 @@ class ScrapeData:
 
             print(f'new height: {new_height}')
 
-            if number == 5:
+            if number == 10:
                 break
 
             if new_height == last_height:
@@ -92,7 +92,7 @@ class ScrapeData:
         self.__item = driver.find_elements(By.XPATH,
                                            '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[9]')
 
-        time.sleep(3)
+        time.sleep(1)
         return self.__item
 
     def __getreviewdata(self):
@@ -102,11 +102,11 @@ class ScrapeData:
             for m in button:
                 if m.text == "More":
                     m.click()
-            time.sleep(5)
+            time.sleep(2)
 
             name = i.find_elements(By.CLASS_NAME, "d4r55")
             stars = i.find_elements(By.CLASS_NAME, "kvMYJc")
-            review = i.find_elements(By.CLASS_NAME, "wiI7pd")
+            review = i.find_elements(By.XPATH, "//div[@class='MyEned']")
             duration = i.find_elements(By.CLASS_NAME, "rsqaWe")
 
             for j, k, l, p in zip(name, stars, review, duration):
@@ -126,9 +126,10 @@ class ScrapeData:
         # removing empty values from the dataframe
         df = df.replace('', np.nan)
         df = df.dropna()
-        return df
 
-    def savetocsv(self, dataframe):
-        date_time = datetime.now()
-        dataframe.to_csv('./data/scrapped.csv', index=False)
+        self.__scrapped_data = df
+        return self.__scrapped_data
+
+    def getdataframe(self):
+        return self.__scrapped_data
 

@@ -1,22 +1,32 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS
 
-from src.aspectclassification import *
-from src.scrapedata import ScrapeData
+from src.ratingprediction import *
 
 app = Flask(__name__)
+CORS(app)
+# @app.route('/')
+# def display():  # put application's code here
+#     return render_template('index.html')
 
 
-@app.route('/')
-def display():  # put application's code here
-    return render_template('index.html')
-
-
-@app.route('/getdata', methods=['POST'])
+@app.route('/classify', methods=['POST'])
 def predict():
-    # url = request.form['url']
-    # ScrapeData(url)
-    AspectClassification()
-    return render_template('index.html', prediction_text="The Data has been downloaded")
+    url = request.json['text']
+    print(url)
+    prediction = RatingPrediction(url)
+    rating = prediction.getrating()
+    food = prediction.getfoodrating()
+    service = prediction.getservicerating()
+    ambience = prediction.getambiencerating()
+    anecdotes = prediction.getotherrating()
+    return jsonify({
+        'overall': str(rating),
+        'food': str(food),
+        'service': str(service),
+        'ambience': str(ambience),
+        'anecdotes': str(anecdotes)
+    })
 
 
 if __name__ == '__main__':

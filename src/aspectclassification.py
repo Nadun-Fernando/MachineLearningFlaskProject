@@ -1,11 +1,7 @@
-import pandas as pd
-import numpy as np
-
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.svm import SVC
 import joblib
 
 from src.preprocessdata import *
+from src.scrapedata import *
 
 
 class AspectClassification:
@@ -13,12 +9,13 @@ class AspectClassification:
     __clf = joblib.load('./models/aspect_classification_model.pkl')
     __vectorizer = joblib.load('./models/aspect_classification_vectorizer.pkl')
 
-    def __init__(self):
-        self.__df = pd.read_csv('./data/scrapped.csv')
+    def __init__(self, url):
+        scrapped = ScrapeData(url)
+        self.__df = scrapped.getdataframe()
         processed = PreprocessData(self.__df)
         self.__df = processed.getdataframe()
-        category_predictions = self.__predictaspect()
-        self.__savetocsv(category_predictions)
+        self.__predictaspect()
+        # self.__savetocsv(category_predictions)
         # print(self.__df)
 
     def __predictaspect(self):
@@ -30,17 +27,23 @@ class AspectClassification:
         # Passing tokenised instance to the model for predictions
         pred = self.__clf.predict(data_transformed)
 
-        return pred
-
-    def __savetocsv(self, pred):
         self.__df['category'] = pred
 
-        prediction_category = pd.DataFrame(self.__df['category'], columns=['category'])
-        rating = pd.DataFrame(self.__df['rating'], columns=['rating'])
-        text = pd.DataFrame(self.__df['text'], columns=['text'])
+        return self.__df
 
-        dfx = pd.concat([rating, text, prediction_category], axis=1)
+    # def __savetocsv(self, pred):
+    #     self.__df['category'] = pred
+    #
+    #     # prediction_category = pd.DataFrame(self.__df['category'], columns=['category'])
+    #     # rating = pd.DataFrame(self.__df['rating'], columns=['rating'])
+    #     # text = pd.DataFrame(self.__df['text'], columns=['text'])
+    #     #
+    #     # dfx = pd.concat([rating, text, prediction_category], axis=1)
+    #     # self.__df = dfx
+    #     #
+    #     # dfx.to_csv("./data/scrapped_category_predicted.csv")
+    #     print(self.__df)
+    #     return self.__df
 
-        dfx.to_csv("./data/scrapped_category_predicted.csv")
-        print(dfx)
-
+    def getdataframe(self):
+        return self.__df
