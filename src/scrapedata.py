@@ -43,14 +43,14 @@ class ScrapeData:
         sort_bt = wait.until(EC.element_to_be_clickable((By.XPATH, '//button[@data-value=\'Sort\']')))
 
         sort_bt.click()
-        time.sleep(2)
+        time.sleep(1)
 
         # clicking the newest value from the dropdown
         wait = WebDriverWait(driver, 3)
         newest_bt = wait.until(EC.element_to_be_clickable((By.XPATH, '//div[@class=\'fxNQSd\'][2]')))
 
         newest_bt.click()
-        time.sleep(2)
+        time.sleep(1)
 
         waiting_time = 2
 
@@ -64,7 +64,7 @@ class ScrapeData:
 
             # Scroll down to bottom
 
-            ele = driver.find_element(By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]')
+            ele = driver.find_element(By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[3]')
             driver.execute_script('arguments[0].scrollBy(0, 10000);', ele)
 
             # Wait to load page
@@ -74,7 +74,7 @@ class ScrapeData:
             # Calculate new scroll height and compare with last scroll height
             print(f'last height: {last_height}')
 
-            ele = driver.find_element(By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]')
+            ele = driver.find_element(By.XPATH, '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[3]')
 
             new_height = driver.execute_script("return arguments[0].scrollHeight", ele)
 
@@ -90,9 +90,9 @@ class ScrapeData:
             last_height = new_height
 
         self.__item = driver.find_elements(By.XPATH,
-                                           '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[9]')
+                                           '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[3]/div[9]')
 
-        time.sleep(1)
+        time.sleep(2)
         return self.__item
 
     def __getreviewdata(self):

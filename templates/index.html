@@ -3,17 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Real-Time Rating Prediction for Restaurants</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
-<body>
-<h1>Rating Prediction for Restaurants</h1>
-<form action="{{ url_for('predict') }}" method="post">
-    <input type="text" name="url" placeholder="Enter the URL" required="required">
-    <button type="submit">Get Data</button>
-</form>
-<br>
-<div>
-    <b>Overall Rating : </b>
-    <b>{{ prediction_text }}</b>
+<body style="padding: 25px">
+<div id="content">
+    <h1>Rating Prediction for Restaurants</h1>
+    <form action="{{ url_for('predict') }}" method="post">
+        <input type="text" name="url" placeholder="Enter the URL" required="required">
+        <button type="submit">Get Data</button>
+    </form>
 </div>
+<div id="loader" class="loader-spinner" style="display: none;">
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Find the form element
+        const form = document.querySelector('form');
+
+        // Find the loader element
+        const loader = document.getElementById('loader');
+
+        // Find the content element
+        const content = document.getElementById('content');
+
+        // Add a submit event listener to the form
+        form.addEventListener('submit', function(event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+
+            // Show the loading animation and blur the content
+            loader.style.display = 'block';
+            content.classList.add('blur');
+
+
+            // Create a new FormData object with the form values
+            const formData = new FormData(form);
+
+            // Send the form data to the server using the Fetch API
+            fetch("{{ url_for('predict') }}", {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.text())
+                .then(data => {
+                    // Replace the current page with the results page
+                    document.open();
+                    document.write(data);
+                    document.close();
+                })
+                .catch(error => {
+                    // Hide the loading animation, remove the blur effect, and show an error message
+                    loader.style.display = 'none';
+                    content.classList.remove('blur');
+                    alert('Error: ' + error);
+                });
+        });
+    });
+</script>
+
 </body>
 </html>
