@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, redirect
 from flask_cors import CORS
 
 from src.ratingprediction import *
@@ -11,7 +11,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def display():  # put application's code here
-    return render_template('index.html')
+    url = request.args.get('url')
+    return render_template('index.html', url=url)
 
 
 @app.route('/classify', methods=['POST'])

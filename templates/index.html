@@ -9,9 +9,9 @@
 <body style="padding: 25px">
 <div id="content">
     <h1>Rating Prediction for Restaurants</h1>
-    <form action="{{ url_for('predict') }}" method="post">
-        <input type="text" name="url" placeholder="Enter the URL" required="required">
-        <button type="submit">Get Data</button>
+    <form id="urlinputForm" action="{{ url_for('predict') }}" method="post">
+        <input type="text" name="url" value="{{ url }}">
+        {#        <button type="submit">Get Data</button>#}
     </form>
 </div>
 <div id="loader" class="loader-spinner" style="display: none;">
@@ -27,8 +27,8 @@
         // Find the content element
         const content = document.getElementById('content');
 
-        // Add a submit event listener to the form
-        form.addEventListener('submit', function(event) {
+        // Function to handle form submission
+        function submitForm() {
             // Prevent the default form submission behavior
             event.preventDefault();
 
@@ -58,7 +58,8 @@
                     content.classList.remove('blur');
                     alert('Error: ' + error);
                 });
-        });
+        }
+        submitForm();
     });
 </script>
 
